@@ -12,6 +12,7 @@
 
 ActiveRecord::Schema.define(version: 3) do
 
+<<<<<<< HEAD
   create_table "costume_stores", force: :cascade do |t|
     t.string "name"
     t.string "location"
@@ -22,6 +23,8 @@ ActiveRecord::Schema.define(version: 3) do
     t.datetime "closing_time"
   end
 
+=======
+>>>>>>> 0a86497ad0cfc4e12a6a19c2aa73cac6f35448ae
   create_table "costumes", force: :cascade do |t|
     t.string "name"
     t.float "price"
